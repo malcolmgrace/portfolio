@@ -1,0 +1,356 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcolm Grace - Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Devicon for Tech Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm always-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold always-dark-text" href="index.html"><img src="images/logo.png" alt="Malcolm Grace Logo" class="img-fluid" style="height: 65px;"></a>
+            <li class="nav-item d-flex align-items-center">
+                <button id="dark-mode-toggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </li>
+            <button class="navbar-toggler always-dark-border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon always-dark-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link always-dark-text" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link always-dark-text" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link always-dark-text" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
+                    <img src="/images/about-portrait.png" alt="About Malcolm" class="img-fluid about-portrait">
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <h3 class="mb-3">Hi, I'm Malcolm Grace.</h3>
+                    <p class="lead mb-4">A passionate Front End Developer based in Ottawa creating responsive, user-friendly websites and applications. My interests outside of programming include traveling with my wife, occasional gaming, and sports.</p>
+                    <br>
+                    
+                    <!-- Tech Stack Icons -->
+                    <h4 class="mt-4 mb-3">My Tech Stack</h4>
+                    <div class="tech-stack d-flex flex-wrap gap-3 mb-4">
+                        <i class="devicon-html5-plain colored fs-1" title="HTML5"></i>
+                        <i class="devicon-css3-plain colored fs-1" title="CSS3"></i>
+                        <i class="devicon-javascript-plain colored fs-1" title="JavaScript"></i>
+                        <i class="devicon-react-original colored fs-1" title="React"></i>
+                        <i class="devicon-nodejs-plain colored fs-1" title="Node.js"></i>
+                        <i class="devicon-mysql-plain colored fs-1" title="MySQL"></i>
+                        <i class="devicon-bootstrap-plain colored fs-1" title="Bootstrap"></i>
+                    </div>
+                    
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-download me-2"></i>Download Resume</a>
+                        <a href="https://github.com/malcolmgrace" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary"><i class="fab fa-github me-2"></i>GitHub</a>
+                        <a href="https://www.linkedin.com/in/malcolm-grace-9259a3311/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary"><i class="fab fa-linkedin me-2"></i>LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Cards -->
+            <div class="row g-4 mt-5">
+                <div class="col-12">
+                    <h3 class="text-center mb-4">My Skills</h3>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card text-center p-4 h-100">
+                        <div class="icon-box mx-auto mb-4">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Frontend Development</h3>
+                        <p class="text mb-4">Building responsive and interactive user interfaces with modern technologies.</p>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <span class="badge bg-primary">HTML5</span>
+                            <span class="badge bg-primary">CSS3</span>
+                            <span class="badge bg-primary">JavaScript</span>
+                            <span class="badge bg-primary">React</span>
+                            <span class="badge bg-primary">Bootstrap</span>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card text-center p-4 h-100">
+                        <div class="icon-box mx-auto mb-4">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Backend Development</h3>
+                        <p class="mb-4">Creating robust server-side applications and APIs to power web services.</p>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <span class="badge bg-primary">Node.js</span>
+                            <span class="badge bg-primary">Express</span>
+                            <span class="badge bg-primary">Python</span>
+                            <span class="badge bg-primary">PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-card text-center p-4 h-100">
+                        <div class="icon-box mx-auto mb-4">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="h5 mb-3">Database & DevOps</h3>
+                        <p class="text mb-4">Managing data storage solutions and deployment infrastructure.</p>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <span class="badge bg-primary">MySQL</span>
+                            <span class="badge bg-primary">Git/GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 mt-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="fw-bold">My Projects</h2>
+                <p>Explore my recent work</p>
+                <div class="divider mx-auto"></div>
+            </div>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up">
+                    <div class="project-card h-100">
+                        <div class="project-img position-relative">
+                            <img src="images/npo-ad.png" alt="npo-ad" class="img-fluid w-100">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://nativeplantsofontario.netlify.app/" class="btn btn-light btn-sm" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                                    <a href="https://github.com/malcolmgrace/native-plants-of-ontario" class="btn btn-light btn-sm" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt me-2"></i>GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info p-4">
+                            <h3 class="h5 mb-3">Native Plants of Ontario</h3>
+                            <p class="text mb-3">This directory showcases the native plant species of Ontario, Canada, providing detailed insights for nature enthusiasts, researchers, and conservationists.</p>
+                            <div class="project-tech d-flex flex-wrap gap-2">
+                                <span class="badge bg-light text-dark">HTML5</span>
+                                <span class="badge bg-light text-dark">CSS3</span>
+                                <span class="badge bg-light text-dark">JavaScript</span>
+                                <span class="badge bg-light text-dark">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card h-100">
+                        <div class="project-img position-relative">
+                            <img src="images/advisorai.png" alt="advisorai" class="img-fluid w-100">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fab fa-github me-2"></i>GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info p-4">
+                            <h3 class="h5 mb-3">Business AI Chatbot</h3>
+                            <p class="text mb-3">My Business AI Chatbot Web App showcases my skills in full-stack development and AI integration. It features a smart, automated chatbot for business automation, customer engagement, and operational efficiency using modern technologies.</p>
+                            <div class="project-tech d-flex flex-wrap gap-2">
+                                <span class="badge bg-light text-dark">React + Vite</span>
+                                <span class="badge bg-light text-dark">JavaScript</span>
+                                <span class="badge bg-light text-dark">Node.js</span>
+                                <span class="badge bg-light text-dark">OpenAI API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card h-100">
+                        <div class="project-img position-relative">
+                            <img src="images/npo-ad.png" alt="Task Management App" class="img-fluid w-100">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fab fa-github me-2"></i>GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info p-4">
+                            <h3 class="h5 mb-3">Task Management App</h3>
+                            <p class="text mb-3">A full-featured task management application with user authentication, task categories, and progress tracking.</p>
+                            <div class="project-tech d-flex flex-wrap gap-2">
+                                <span class="badge bg-light text-dark">Vue.js</span>
+                                <span class="badge bg-light text-dark">Vuex</span>
+                                <span class="badge bg-light text-dark">Express</span>
+                                <span class="badge bg-light text-dark">PostgreSQL</span>
+                                <span class="badge bg-light text-dark">JWT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card h-100">
+                        <div class="project-img position-relative">
+                            <img src="/api/placeholder/600/400" alt="advisorai" class="img-fluid w-100">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
+                                    <a href="#" class="btn btn-light btn-sm"><i class="fab fa-github me-2"></i>GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info p-4">
+                            <h3 class="h5 mb-3">AdvisorAI Chatbot</h3>
+                            <p class="text-muted mb-3">A recipe discovery application that lets users search, save, and share recipes based on ingredients and dietary preferences.</p>
+                            <div class="project-tech d-flex flex-wrap gap-2">
+                                <span class="badge bg-light text-dark">React</span>
+                                <span class="badge bg-light text-dark">Firebase</span>
+                                <span class="badge bg-light text-dark">Spoonacular API</span>
+                                <span class="badge bg-light text-dark">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="https://github.com/malcolmgrace?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">View More on GitHub <i class="fab fa-github ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 class="fw-bold">Get In Touch</h2>
+                <div class="divider mx-auto"></div>
+            </div>
+            
+            <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0 d-flex justify-content-center" data-aos="fade-left">
+                <div class="contact-info">
+                    <div class="info-item d-flex mb-4">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text ms-3">
+                            <h5 class="mb-2">Location</h5>
+                            <p>Ottawa, Ontario</p>
+                        </div>
+                    </div>
+                    <div class="info-item d-flex mb-4">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text ms-3">
+                            <h5 class="mb-2">Email</h5>
+                            <p><a href="mailto:malcolmgrace.digital@gmail.com">malcolmgrace.digital@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item d-flex mb-4">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text ms-3">
+                            <h5 class="mb-2">Phone</h5>
+                            <div><a href="tel:2498789140">+1 (249) 878 9140</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3 class="mb-4">Contact Me</h3>
+                    <p class="mb-4">I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                    
+                    <form id="contactForm" class="contact-form" aria-label="Contact form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" placeholder="Message" style="height: 150px" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Malcolm Grace. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
